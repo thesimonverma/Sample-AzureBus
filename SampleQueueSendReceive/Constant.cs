@@ -8,6 +8,6 @@ namespace SampleQueueSendReceive
 	{
 		//change Shared access policy and queue name from azure bus service
 		public const string ServiceBusConnectionString = "dummyconn";
-		public const string QueueName = "queuename";
+		public const string QueueName = "queuename";  
 	}
 }
