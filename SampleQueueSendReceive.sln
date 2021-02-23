@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleQueueSendReceive", "SampleQueueSendReceive\SampleQueueSendReceive.csproj", "{088B4719-4902-4D2A-9D85-5DEACFAA79A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleQueueSendReceive", "SampleQueueSendReceive\SampleQueueSendReceive.csproj", "{088B4719-4902-4D2A-9D85-5DEACFAA79A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTopicSendReceive", "SampleTopicSendReceive\SampleTopicSendReceive.csproj", "{DF99B919-77BF-45BB-84FD-69D2C2A679F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleTopicSendReceive", "SampleTopicSendReceive\SampleTopicSendReceive.csproj", "{DF99B919-77BF-45BB-84FD-69D2C2A679F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAzureStorageQueue", "SampleAzureStorageQueue\SampleAzureStorageQueue.csproj", "{C465F57F-D5EA-41B2-AFDD-C75DADBD86D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DF99B919-77BF-45BB-84FD-69D2C2A679F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF99B919-77BF-45BB-84FD-69D2C2A679F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF99B919-77BF-45BB-84FD-69D2C2A679F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C465F57F-D5EA-41B2-AFDD-C75DADBD86D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C465F57F-D5EA-41B2-AFDD-C75DADBD86D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C465F57F-D5EA-41B2-AFDD-C75DADBD86D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C465F57F-D5EA-41B2-AFDD-C75DADBD86D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
